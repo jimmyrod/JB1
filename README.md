@@ -12,7 +12,7 @@ Este repositorio contiene el sitio web estático para la candidatura de Janet Bo
 │   ├── js
 │   │   └── main.js           # Interacciones básicas (menú móvil y scroll suave)
 │   └── images
-│       └── janet-bonilla-placeholder.svg  # Fallback vectorial
+│       └── janet-bonilla-placeholder.svg  # Retrato vectorial de respaldo
 ```
 
 ## Personalización
