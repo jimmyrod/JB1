@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Janet Bonilla Freire Placeholder</title>
+  <desc id="desc">Placeholder silhouette for Janet Bonilla Freire portrait</desc>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#005baa"/>
+      <stop offset="50%" stop-color="#008ad1"/>
+      <stop offset="100%" stop-color="#6cc5ff"/>
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="400" cy="400" r="320"/>
+    </clipPath>
+  </defs>
+  <rect width="800" height="1000" fill="url(#grad)"/>
+  <g clip-path="url(#circleClip)" transform="translate(0,80)">
+    <rect x="0" y="0" width="800" height="800" fill="rgba(255,255,255,0.12)"/>
+    <path d="M400 150c-92 0-166 74-166 166s74 166 166 166 166-74 166-166S492 150 400 150zm0 398c-139 0-252 113-252 252v120h504V800c0-139-113-252-252-252z" fill="rgba(255,255,255,0.65)"/>
+  </g>
+  <text x="400" y="880" text-anchor="middle" font-family="'Montserrat', Arial, sans-serif" font-size="54" fill="#ffffff" font-weight="600">Janet Bonilla Freire</text>
+  <text x="400" y="940" text-anchor="middle" font-family="'Montserrat', Arial, sans-serif" font-size="32" fill="#e0f3ff">Candidata a Rectora</text>
+</svg>
