@@ -140,6 +140,18 @@ nav ul li a:focus {
   color: var(--color-primary);
 }
 
+.button.light {
+  background: white;
+  color: var(--color-primary);
+  box-shadow: 0 12px 28px rgba(255, 255, 255, 0.18);
+}
+
+.button.light:hover,
+.button.light:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.12);
+}
+
 .hero {
   position: relative;
   overflow: hidden;
@@ -215,6 +227,26 @@ nav ul li a:focus {
   background-color: var(--color-light);
 }
 
+.section.emphasis {
+  position: relative;
+  color: white;
+  background: linear-gradient(135deg, rgba(0, 91, 170, 0.96), rgba(0, 163, 215, 0.88));
+  overflow: hidden;
+}
+
+.section.emphasis::before {
+  content: '';
+  position: absolute;
+  inset: -30% -20% auto;
+  height: 420px;
+  background: radial-gradient(circle at top left, rgba(241, 183, 34, 0.35), transparent 65%);
+  pointer-events: none;
+}
+
+.section.emphasis .section-inner {
+  position: relative;
+}
+
 .section .section-inner {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -223,6 +255,10 @@ nav ul li a:focus {
 .section-header {
   max-width: 720px;
   margin-bottom: 2.5rem;
+}
+
+.section.emphasis .section-header span {
+  color: rgba(255, 255, 255, 0.82);
 }
 
 .section-header span {
@@ -234,14 +270,60 @@ nav ul li a:focus {
   font-weight: 700;
 }
 
+.section.emphasis .section-header h2 {
+  color: white;
+}
+
 .section-header h2 {
   font-size: clamp(2rem, 2.5vw + 1rem, 3rem);
   margin: 0.75rem 0;
 }
 
+.section.emphasis .section-header p {
+  color: rgba(255, 255, 255, 0.88);
+}
+
 .section-header p {
   margin: 0;
   color: var(--color-muted);
+}
+
+.statement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.statement-block {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 1.75rem 2rem;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.18);
+}
+
+.statement-block p {
+  margin: 0 0 1.2rem;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.05rem;
+}
+
+.statement-block p:last-child {
+  margin-bottom: 0;
+}
+
+.statement-cta {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.statement-cta span {
+  color: rgba(255, 255, 255, 0.78);
+  font-weight: 500;
 }
 
 .grid {
