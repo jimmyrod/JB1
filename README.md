@@ -17,7 +17,7 @@ Este repositorio contiene el sitio web estático para la candidatura de Janet Bo
 
 ## Personalización
 
-1. **Fotografía oficial:** por políticas del repositorio no se distribuyen archivos binarios. Sube manualmente a tu hosting (por ejemplo, mediante el administrador de archivos de cPanel) la fotografía oficial como `assets/images/janet-bonilla.jpg`, manteniendo exactamente ese nombre de archivo. Mientras tanto, el sitio utiliza el retrato vectorial `janet-bonilla-placeholder.svg` para que no aparezcan errores en la interfaz.
+1. **Fotografía oficial:** coloca el archivo `assets/images/janet-bonilla.jpg` con la fotografía oficial de la candidata manteniendo el mismo nombre de archivo. El sitio incluye un fallback vectorial (`janet-bonilla-placeholder.svg`) para garantizar la accesibilidad si la foto no está disponible.
 2. **Datos de contacto:** ajusta los enlaces de WhatsApp y redes sociales con las cuentas oficiales de campaña.
 3. **Plan de gestión y agenda:** añade enlaces a documentos PDF o eventos concretos según se vayan confirmando.
 
