@@ -509,68 +509,6 @@ nav ul li a:focus {
   text-decoration-thickness: 2px;
 }
 
-.contact-socials {
-  display: grid;
-  gap: 0.75rem;
-}
-
-.contact-socials__label {
-  font-size: 0.95rem;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.72);
-}
-
-.social-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-
-.social-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.6rem 0.9rem;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: white;
-  text-decoration: none;
-  transition: var(--transition);
-}
-
-.social-link:hover,
-.social-link:focus-visible {
-  background: rgba(255, 255, 255, 0.24);
-  transform: translateY(-2px);
-}
-
-.social-link:focus-visible {
-  outline: 2px solid rgba(255, 255, 255, 0.8);
-  outline-offset: 2px;
-}
-
-.social-link svg {
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-}
-
-.social-link svg path {
-  fill: currentColor;
-}
-
-.social-link svg rect,
-.social-link svg circle {
-  stroke: currentColor;
-}
-
-.social-link svg .filled {
-  fill: currentColor;
-  stroke: none;
-}
-
 .newsletter {
   background: white;
   padding: 2.5rem;
